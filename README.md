@@ -11,8 +11,8 @@ Play your favourite arcade games using $ARCADE
 - [x] Plan for ArcadeToken.sol contract
 - [x] Update package and use viem to deploy scripts
 - [x] Create contracts directory and build ArcadeToken.sol
-- [ ] Add .env, hardhatconfig.ts, tsconfig.json
-- [ ] Create scripts directory
+- [x] Add .env, hardhatconfig.ts, tsconfig.json
+- [x] Create scripts directory
 - [ ] Create DeployArcadeToken.ts, MintTokens.ts, ArcadeTokens.ts scripts, etc
 - [ ] Deploy token to Base Sepolia testnets
 - [ ] Mint tokens on Base Sepolia testnets
