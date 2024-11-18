@@ -6,6 +6,8 @@ Play your favourite arcade games using $ARCADE
 
 ### To do list
 - [x] Create a fresh new dapp using Scaffold ETH 2 as a base
+- [x] Remove .husky because of lint
+- [x] Install dependencies
 - [ ] Update package and use viem to deploy scripts
 - [ ] Create contracts directory and build ArcadeToken.sol
 - [ ] Add .env, hardhatconfig.ts, tsconfig.json
