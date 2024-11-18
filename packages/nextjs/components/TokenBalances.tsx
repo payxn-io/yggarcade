@@ -54,12 +54,12 @@ export const TokenBalances = () => {
   return (
     <div className="card w-96 bg-primary text-primary-content mt-4">
       <div className="card-body">
-        <h2 className="card-title">USDC Token Balances</h2>
+        <h2 className="card-title">ARCADE Token Balances</h2>
 
         {balanceSepolia !== undefined && (
           <div>Base $ARCADE Balance: {balanceSepolia ? balanceSepolia.toString() : 0}</div>
         )}
-        {balanceBase !== undefined && <div>Base $USDC Balance: {balanceBase ? balanceBase.toString() : 0}</div>}
+        {balanceBase !== undefined && <div>Base $ARCADE Balance: {balanceBase ? balanceBase.toString() : 0}</div>}
       </div>
     </div>
   );
