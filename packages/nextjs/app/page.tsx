@@ -114,7 +114,7 @@ const Home: NextPage = () => {
               />
             </div>         
               <p>
-              Survive the apocalypse in your armored van, collect repairs and fuel to keep going, smash through hordes of zombies and avoid deadly obstacles! {" "}
+              Solve math challenges under time pressure, rack up points, and climb the leaderboard. Compete with others to become the ultimate math champion! {" "}
               </p>
               <div className="flex relative w-20 h-20">
                 <Link href="/math" passHref>
