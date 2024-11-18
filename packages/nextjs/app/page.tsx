@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             <div className="flex relative w-40 h-40">
   <Image
     src="/yggarcade-ammo.png"
-    alt="Payxn logo"
+    alt="Ammo"
     fill
     style={{ objectFit: "contain" }}
   />
@@ -62,6 +62,14 @@ const Home: NextPage = () => {
                 </Link>{" "}*/}
                 
               </p>
+              <div className="flex relative w-10 h-10">
+                <Image
+                  src="/yggarcade-ammo.png"
+                  alt="enter"
+                  fill
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
             </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
