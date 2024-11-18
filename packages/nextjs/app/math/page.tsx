@@ -5,8 +5,8 @@ export default function Home() {
     <div>
       {/*<h1>Responsive Iframe in Next.js with TypeScript</h1>*/}
       <ResponsiveIframe 
-        src="https://payxn.xyz/yggarcade/undead/" 
-        title="Undead Rampage"
+        src="https://payxn.xyz/yggarcade/math/" 
+        title="Math Mania"
       />
     </div>
   );
