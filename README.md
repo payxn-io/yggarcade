@@ -18,7 +18,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Mint tokens on Base Sepolia testnets
 - [ ] Check token status
 - [ ] Watch for events on Sepolia testnets
-- [ ] Launch games to Base Sepolia
+- [x] Launch games to Base Sepolia
 - [ ] Add frontend to show tokens in Sepolia
 - [ ] Add frontend to arcade tokens from Sepolia
 - [ ] Deploy
