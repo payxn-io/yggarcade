@@ -15,7 +15,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Create scripts directory
 - [x] Create DeployArcadeToken.ts, MintTokens.ts, ArcadeTokens.ts scripts, etc
 - [x] Deploy token to Base Sepolia testnets
-- [ ] Mint tokens on Base Sepolia testnets
+- [x] Mint tokens on Base Sepolia testnets
 - [ ] Check token status
 - [ ] Watch for events on Sepolia testnets
 - [ ] Launch games to Base Sepolia
