@@ -53,6 +53,8 @@ https://sepolia.basescan.org/address/0x3cac1e711919a503681d258ee38c01d5e1971f4d#
 
 ### Mint ArcadeToken
 npx ts-node --files ./scripts/MintTokens.ts 0x3cac1e711919a503681d258ee38c01d5e1971f4d 0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0 1000 base
+<img width="649" alt="Screenshot 2024-11-18 at 1 28 07 AM" src="https://github.com/user-attachments/assets/d9fe2c65-62a9-4ad7-a09d-a44592dc6c5b">
+
 
 ## Requirements
 
