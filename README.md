@@ -21,7 +21,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Launch games to Base Sepolia
 - [x] Add frontend to show tokens in Sepolia
 - [x] Add frontend to arcade tokens from Sepolia
-- [ ] Deploy
+- [x] Deploy
 
 ### Getting started
 - [ ] Compile the contract first
