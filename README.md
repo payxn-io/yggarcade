@@ -14,7 +14,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Add .env, hardhatconfig.ts, tsconfig.json
 - [x] Create scripts directory
 - [ ] Create DeployArcadeToken.ts, MintTokens.ts, ArcadeTokens.ts scripts, etc
-- [ ] Deploy token to Base Sepolia testnets
+- [x] Deploy token to Base Sepolia testnets
 - [ ] Mint tokens on Base Sepolia testnets
 - [ ] Check token status
 - [ ] Watch for events on Sepolia testnets
@@ -32,7 +32,10 @@ npx hardhat compile
 𝘵𝘩𝘪𝘴 𝘸𝘪𝘭𝘭 𝘨𝘦𝘯𝘦𝘳𝘢𝘵𝘦 𝘵𝘩𝘦 𝘢𝘳𝘵𝘪𝘧𝘢𝘤𝘵𝘴 𝘧𝘰𝘭𝘥𝘦𝘳 𝘵𝘩𝘢𝘵 𝘺𝘰𝘶 𝘤𝘢𝘯 𝘤𝘢𝘭𝘭 𝘪𝘯 𝘺𝘰𝘶𝘳 𝘴𝘤𝘳𝘪𝘱𝘵𝘴 𝘪𝘦:
 import { abi } from "../../artifacts/contracts/ArcadeToken.sol/ArcadeToken.json";
 
-
+Deploy ARCADE token to base Sepolia
+```
+npx ts-node --files ./scripts/DeployArcadeToken.ts ArcadeToken ARCADE base
+```
 
 ## Requirements
 
