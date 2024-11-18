@@ -18,7 +18,9 @@ contract ArcadeToken is ERC20, ERC20Burnable, AccessControl {
         _mint(to, amount);
     }
 
-
-    
+    function wager(uint256 value) public virtual {
+        _burn(_msgSender(), value);
+        emit Bridge(msg.sender, value);
+    }
 
 }
