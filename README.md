@@ -20,7 +20,7 @@ Play your favourite arcade games using $ARCADE
 - [ ] Watch for events on Sepolia testnets
 - [x] Launch games to Base Sepolia
 - [x] Add frontend to show tokens in Sepolia
-- [ ] Add frontend to arcade tokens from Sepolia
+- [x] Add frontend to arcade tokens from Sepolia
 - [ ] Deploy
 
 ### Getting started
