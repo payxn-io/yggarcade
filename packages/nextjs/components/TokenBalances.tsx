@@ -6,7 +6,7 @@ export const TokenBalances = () => {
   const { address: connectedAddress } = useAccount();
   // const tokenAddress = "0x3cac1e711919a503681d258ee38c01d5e1971f4d";
   const tokenAddress1 = "0x3cac1e711919a503681d258ee38c01d5e1971f4d";
-  const tokenAddress2 = "0xdda5a1fcd29b7a765a3d8d4fc8cf4ee4fb0ec5be";
+  const tokenAddress2 = "0x3cac1e711919a503681d258ee38c01d5e1971f4d";
   const queryClient = useQueryClient();
 
   const result = useReadContracts({
@@ -57,7 +57,7 @@ export const TokenBalances = () => {
         <h2 className="card-title">USDC Token Balances</h2>
 
         {balanceSepolia !== undefined && (
-          <div>ETH Sepolia $USDC Balance: {balanceSepolia ? balanceSepolia.toString() : 0}</div>
+          <div>Base $ARCADE Balance: {balanceSepolia ? balanceSepolia.toString() : 0}</div>
         )}
         {balanceBase !== undefined && <div>Base $USDC Balance: {balanceBase ? balanceBase.toString() : 0}</div>}
       </div>
