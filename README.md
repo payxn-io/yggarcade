@@ -37,6 +37,13 @@ Deploy ARCADE token to base Sepolia
 npx ts-node --files ./scripts/DeployArcadeToken.ts ArcadeToken ARCADE base
 ```
 
+- [x] Modify hardhat.config.ts and add etherscan api and sourcify 
+- [x] Add arguments.js to verify contract 
+```
+npx hardhat verify --constructor-args arguments.js --network sepolia TOKEN_ADDRESS
+npx hardhat verify --constructor-args arguments.js --network sepolia 0x3cac1e711919a503681d258ee38c01d5e1971f4d
+```
+
 ## Requirements
 
 Before you begin, you need to install the following tools:
