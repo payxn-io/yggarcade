@@ -36,13 +36,21 @@ Deploy ARCADE token to base Sepolia
 ```
 npx ts-node --files ./scripts/DeployArcadeToken.ts ArcadeToken ARCADE base
 ```
+<img width="722" alt="Screenshot 2024-11-17 at 10 51 32 PM" src="https://github.com/user-attachments/assets/1392dd40-4b79-4b02-bec9-0d6fb0b6df01">
 
 - [x] Modify hardhat.config.ts and add etherscan api and sourcify 
-- [x] Add arguments.js to verify contract 
+- [x] Add arguments.js to verify contract
+- [x] Get ETHERSCAN API key from basescan to verify baseSepolia
 ```
 npx hardhat verify --constructor-args arguments.js --network sepolia TOKEN_ADDRESS
 npx hardhat verify --constructor-args arguments.js --network sepolia 0x3cac1e711919a503681d258ee38c01d5e1971f4d
 ```
+<img width="722" alt="Screenshot 2024-11-17 at 10 59 48 PM" src="https://github.com/user-attachments/assets/73370e82-a73f-40b0-8739-0f6f667dcdc8">
+
+### Deployed ArcadeToken
+https://sepolia.basescan.org/address/0x3cac1e711919a503681d258ee38c01d5e1971f4d#code
+<img width="1401" alt="Screenshot 2024-11-17 at 11 03 17 PM" src="https://github.com/user-attachments/assets/fd424231-9020-4091-8671-631a416bb2ca">
+
 
 ## Requirements
 
