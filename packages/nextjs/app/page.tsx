@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             <p className="my-2 font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
           </div>
-          <TokenBalances />
+          
           <p className="text-center text-lg">
             Play your favourite arcade games and win prizes and rewards $ARCADE{" "}
             {/*<code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
@@ -51,14 +51,14 @@ const Home: NextPage = () => {
             <div className="relative flex w-[401px] h-[300px]">
               <Image
                 src="/yggarcade-ammo.png"
-                alt="Ammo"
+                alt="Ammo Arcade"
                 fill
                 style={{ objectFit: "contain" }}
               />
             </div>
               {/*<BugAntIcon className="h-8 w-8 fill-secondary" />*/}
               <p>
-                Play onchain multiplayer Ammo Arcade with your friends{" "}
+                Play onchain multiplayer Ammo Arcade with your friends. pick multiple weapons and ammos and shoot your way through different levels{" "}
                 {/*<Link href="/debug" passHref className="link">
                   Debug Contracts
                 </Link>{" "}*/}
@@ -78,22 +78,22 @@ const Home: NextPage = () => {
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
             <div className="relative flex w-[401px] h-[300px]">
               <Image
-                src="/yggarcade-ammo.png"
-                alt="Ammo"
+                src="/yggarcade-undead.png"
+                alt="Undead Rampage"
                 fill
                 style={{ objectFit: "contain" }}
               />
             </div>
               {/*<BugAntIcon className="h-8 w-8 fill-secondary" />*/}
               <p>
-                Play onchain multiplayer Ammo Arcade with your friends{" "}
+              Survive the apocalypse in your armored van, collect repairs and fuel to keep going, smash through hordes of zombies and avoid deadly obstacles! {" "}
                 {/*<Link href="/debug" passHref className="link">
                   Debug Contracts
                 </Link>{" "}*/}
                 
               </p>
               <div className="flex relative w-20 h-20">
-                <Link href="/ammoarcade" passHref>
+                <Link href="/undead" passHref>
                   <Image
                     src="/enter_0034-new.gif"
                     alt="enter"
@@ -113,6 +113,10 @@ const Home: NextPage = () => {
                 tab.
               </p>
             </div>
+            
+          </div>
+          <div className="px-5">
+          <TokenBalances />
           </div>
         </div>
       </div>
