@@ -62,7 +62,7 @@ const Home: NextPage = () => {
                 </Link>{" "}*/}
                 
               </p>
-              <div className="flex relative w-10 h-10">
+              <div className="flex relative w-20 h-20">
                 <Image
                   src="/enter_0034-new.gif"
                   alt="enter"
