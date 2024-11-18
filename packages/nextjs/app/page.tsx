@@ -110,12 +110,14 @@ const Home: NextPage = () => {
 
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
             <div className="relative flex w-[401px] h-[300px]">
-              <Image
-                src="/yggarcade-math.png"
-                alt="Math is mathing"
-                fill
-                style={{ objectFit: "contain" }}
-              />
+              <Link href="/math" passHref>
+                <Image
+                  src="/yggarcade-math.png"
+                  alt="Math is mathing"
+                  fill
+                  style={{ objectFit: "contain" }}
+                />
+              </Link>  
             </div>         
               <p>
               Solve math challenges under time pressure, rack up points, and climb the leaderboard. Compete with others to become the ultimate math champion! {" "}
