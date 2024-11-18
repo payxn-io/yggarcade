@@ -4,3 +4,5 @@ import { createPublicClient, http } from "viem";
 import { baseSepolia, sepolia } from "viem/chains";
 import { abi } from "../artifacts/contracts/ArcadeToken.sol/ArcadeToken.json";
 import * as dotenv from "dotenv";
+dotenv.config();
+
