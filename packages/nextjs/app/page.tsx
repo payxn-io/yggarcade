@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <div className="px-5">
           <h1 className="text-center">
             <span className="block text-1xl mb-2">Welcome to</span>
-            <span className="block text-4xl font-bold">YGG Arcade</span>
+            <span className="block text-2xl font-bold">YGG Arcade</span>
           </h1>
           
 
