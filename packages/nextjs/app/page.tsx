@@ -3,7 +3,6 @@
 import Link from "next/link";
 import type { NextPage } from "next";
 import { useAccount } from "wagmi";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { Address } from "~~/components/scaffold-eth";
 import { TokenBalances } from "~~/components/TokenBalances";
 import Image from 'next/image';
