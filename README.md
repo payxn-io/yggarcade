@@ -51,6 +51,8 @@ npx hardhat verify --constructor-args arguments.js --network sepolia 0x3cac1e711
 https://sepolia.basescan.org/address/0x3cac1e711919a503681d258ee38c01d5e1971f4d#code
 <img width="1401" alt="Screenshot 2024-11-17 at 11 03 17 PM" src="https://github.com/user-attachments/assets/fd424231-9020-4091-8671-631a416bb2ca">
 
+### Mint ArcadeToken
+npx ts-node --files ./scripts/MintTokens.ts 0x3cac1e711919a503681d258ee38c01d5e1971f4d 0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0 1000 base
 
 ## Requirements
 
