@@ -26,4 +26,31 @@ function validateParameters(parameters: string[]) {
     if (!network) throw new Error("Network not provided");
   
     return { contractAddress, accountAddress, network };
-}
+  }
+
+  async function main() {
+    console.log("\n");
+    const { contractAddress, accountAddress, network } = validateParameters(process.argv.slice(2));
+  
+    const chain = network === "base" ? baseSepolia : sepolia;
+    const subdomain = network === "base" ? "base-sepolia" : "eth-sepolia";
+    const transport = http(`https://${subdomain}.g.alchemy.com/v2/${providerApiKey}`);
+  
+    const publicClient = createPublicClient({
+      chain: chain,
+      transport: transport,
+    });
+    const balance = (await publicClient.readContract({
+      address: contractAddress,
+      abi,
+      functionName: "balanceOf",
+      args: [accountAddress],
+    })) as BigInt;
+  
+    console.log(
+      `Account: ${accountAddress}\n`,
+      `Tokens: ${balance.toString()}`
+    );
+  
+    process.exit();
+  }
