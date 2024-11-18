@@ -79,12 +79,14 @@ const Home: NextPage = () => {
             </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
             <div className="relative flex w-[401px] h-[300px]">
-              <Image
-                src="/yggarcade-undead.png"
-                alt="Undead Rampage"
-                fill
-                style={{ objectFit: "contain" }}
-              />
+              <Link href="/undead" passHref>
+                <Image
+                  src="/yggarcade-undead.png"
+                  alt="Undead Rampage"
+                  fill
+                  style={{ objectFit: "contain" }}
+                />
+              </Link>  
             </div>
               {/*<BugAntIcon className="h-8 w-8 fill-secondary" />*/}
               <p>
