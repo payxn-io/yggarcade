@@ -63,13 +63,17 @@ const Home: NextPage = () => {
                 
               </p>
               <div className="flex relative w-20 h-20">
-                <Image
-                  src="/enter_0034-new.gif"
-                  alt="enter"
-                  fill
-                  style={{ objectFit: "contain" }}
-                />
+                <Link href="/ammoarcade" passHref>
+                  <Image
+                    src="/enter_0034-new.gif"
+                    alt="enter"
+                    fill
+                    style={{ objectFit: "contain" }}
+                  />
+                </Link>
               </div>
+
+              
             </div>
             <div className="flex flex-col bg-base-100 px-10 py-10 text-center items-center max-w-xs rounded-3xl">
               <MagnifyingGlassIcon className="h-8 w-8 fill-secondary" />
