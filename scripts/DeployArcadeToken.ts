@@ -57,7 +57,7 @@ function validateParameters(parameters: string[]) {
       deployer.chain.nativeCurrency.symbol
     );
   
-    console.log("\nDeploying BridgeableToken contract");
+    console.log("\nDeploying ArcadeToken contract");
     const hash = await deployer.deployContract({
       abi,
       bytecode: bytecode as `0x${string}`,
@@ -67,7 +67,7 @@ function validateParameters(parameters: string[]) {
     console.log("Waiting for confirmations...");
     const receipt = await publicClient.waitForTransactionReceipt({ hash });
     const contractAddress = receipt.contractAddress;
-    console.log("BridgeableToken contract deployed to:", contractAddress);
+    console.log("ArcadeToken contract deployed to:", contractAddress);
   
     process.exit();
   }
