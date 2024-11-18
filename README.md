@@ -9,7 +9,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Remove .husky because of lint
 - [x] Install dependencies
 - [x] Plan for ArcadeToken.sol contract
-- [ ] Update package and use viem to deploy scripts
+- [x] Update package and use viem to deploy scripts
 - [x] Create contracts directory and build ArcadeToken.sol
 - [ ] Add .env, hardhatconfig.ts, tsconfig.json
 - [ ] Create scripts directory
