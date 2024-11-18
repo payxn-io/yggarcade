@@ -10,7 +10,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Install dependencies
 - [x] Plan for ArcadeToken.sol contract
 - [ ] Update package and use viem to deploy scripts
-- [ ] Create contracts directory and build ArcadeToken.sol
+- [x] Create contracts directory and build ArcadeToken.sol
 - [ ] Add .env, hardhatconfig.ts, tsconfig.json
 - [ ] Create scripts directory
 - [ ] Create DeployArcadeToken.ts, MintTokens.ts, ArcadeTokens.ts scripts, etc
