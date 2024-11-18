@@ -1,4 +1,4 @@
-import { abi } from "../../../artifacts/contracts/ArcadeToken.sol/ArcadeToken.dbg.json";
+import { abi } from "../../../artifacts/contracts/ArcadeToken.sol/ArcadeToken.json";
 import { useQueryClient } from "@tanstack/react-query";
 import { useAccount, useReadContracts, useWatchContractEvent } from "wagmi";
 
