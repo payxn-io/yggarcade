@@ -13,7 +13,7 @@ Play your favourite arcade games using $ARCADE
 - [x] Create contracts directory and build ArcadeToken.sol
 - [x] Add .env, hardhatconfig.ts, tsconfig.json
 - [x] Create scripts directory
-- [ ] Create DeployArcadeToken.ts, MintTokens.ts, ArcadeTokens.ts scripts, etc
+- [x] Create DeployArcadeToken.ts, MintTokens.ts, ArcadeTokens.ts scripts, etc
 - [x] Deploy token to Base Sepolia testnets
 - [ ] Mint tokens on Base Sepolia testnets
 - [ ] Check token status
