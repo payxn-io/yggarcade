@@ -5,6 +5,7 @@ import type { NextPage } from "next";
 import { useAccount } from "wagmi";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { Address } from "~~/components/scaffold-eth";
+import { TokenBalances } from "~~/components/TokenBalances";
 import Image from 'next/image';
 
 const Home: NextPage = () => {
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
             <p className="my-2 font-medium">Connected Address:</p>
             <Address address={connectedAddress} />
           </div>
+          <TokenBalances />
           <p className="text-center text-lg">
             Play your favourite arcade games and win prizes and rewards $ARCADE{" "}
             {/*<code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
